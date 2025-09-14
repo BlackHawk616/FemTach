@@ -51,7 +51,7 @@ export default function LoginPage() {
         if (signUpData.user) {
           toast({
             title: "Account created successfully!",
-            description: "Welcome to Femtech. Let's get you set up.",
+            description: "Welcome to Femtact. Let's get you set up.",
           })
 
           console.log('Redirecting to onboarding...')
@@ -90,7 +90,7 @@ export default function LoginPage() {
           <div className="flex justify-center mb-4">
             <Heart className="h-12 w-12 text-primary" />
           </div>
-          <CardTitle className="text-2xl font-bold">Welcome to Femtech</CardTitle>
+          <CardTitle className="text-2xl font-bold">Welcome to Femtact</CardTitle>
           <CardDescription>Your personal health and wellness companion</CardDescription>
         </CardHeader>
         <CardContent>
@@ -122,7 +122,7 @@ export default function LoginPage() {
             </Button>
           </form>
           <p className="text-sm text-muted-foreground text-center mt-4">
-            New to Femtech? We'll automatically create your account!
+            New to Femtact? We'll automatically create your account!
           </p>
         </CardContent>
       </Card>

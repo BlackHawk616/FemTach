@@ -109,7 +109,7 @@ export default function OnboardingPage() {
           {/* Header */}
           <div className="text-center mb-8">
             <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
-            <h1 className="text-3xl font-bold text-foreground mb-2">Welcome to Femtech</h1>
+            <h1 className="text-3xl font-bold text-foreground mb-2">Welcome to Femtact</h1>
             <p className="text-muted-foreground">Let's personalize your wellness journey</p>
           </div>
 

@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
-import { Heart, Brain, User, LayoutDashboard } from "lucide-react"
+import { Heart, Brain, User, LayoutDashboard, Users } from "lucide-react"
 
 const navigationItems = [
   {
@@ -15,6 +15,11 @@ const navigationItems = [
     name: "Mental Health",
     href: "/mental-health",
     icon: Brain,
+  },
+  {
+    name: "Community",
+    href: "/community",
+    icon: Users,
   },
   {
     name: "Profile",
@@ -33,7 +38,7 @@ export function Navigation() {
           <div className="flex items-center">
             <Link href="/dashboard" className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-primary" />
-              <span className="font-bold text-xl text-foreground">Femtech</span>
+              <span className="font-bold text-xl text-foreground">Femtact</span>
             </Link>
           </div>
 

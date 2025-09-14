@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Femtech - Women's Health & Wellness",
+  title: "Femtact - Women's Health & Wellness",
   description: "Your personal health and wellness companion",
   generator: "v0.app",
 }
