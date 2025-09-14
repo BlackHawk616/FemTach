@@ -1,53 +1,56 @@
-This Is The Page Flow And Strcuture Of The Website Version
+# 🌸 FemTech Web Preview Dashboard  
 
-### Pages & Flow
+![GitHub Repo stars](https://img.shields.io/github/stars/BlackHawk616/FemTech?style=social)  
+![GitHub forks](https://img.shields.io/github/forks/BlackHawk616/FemTech?style=social)  
+![GitHub issues](https://img.shields.io/github/issues/BlackHawk616/FemTech)  
+![GitHub license](https://img.shields.io/github/license/BlackHawk616/FemTech)  
 
-1. **Login / Signup Page**
-   - Simple form with email + password.
-   - If account doesn’t exist, auto-create a new account.
-   - Use a clean card-style layout, centered on the screen.
+🚀 **FemTech** is a modern web-based dashboard built for women’s wellness and empowerment.  
+It provides features like **health tracking, sleep monitoring, mental wellness tools, and a vibrant community hub** — all in one seamless interface.  
 
-2. **Onboarding Page (first login only)**
-   - Collect user details:
-     - Name, Age, Height, Weight.
-     - Diet preference (Veg / Non-Veg / Vegan).
-     - Lifestyle goals (fitness, cycle tracking, wellness).
-   - Save to database (placeholder).
+---
 
-3. **Dashboard Page**
-   - Top section: Greeting with user’s name.
-   - Metrics grid (cards):
-     - Steps counter
-     - Calories burned
-     - Cycle tracker (calendar widget + prediction highlights)
-     - Hydration reminder (progress bar)
-     - Daily motivational quote (fetched from AI or placeholder API)
-   - Right sidebar: AI wellness assistant (chatbox for user to ask about health/diet).
+## ✨ Features  
 
-4. **Mental Health Tracker Page**
-   - Mood tracker widget (Happy / Sad / Neutral).
-   - Journal entry (textarea to log feelings).
-   - Show past mood logs in a list with date/time.
-   - Optional: AI analysis card that shows “Your mood trend this week” (placeholder chart).
+- 🏠 **Home Dashboard** – Personalized overview of wellness stats.  
+- 🧘 **Mental Health Hub** – Access guided resources and self-care activities.  
+- 🌍 **Community Page** – A Twitter-like feed for posts, images, and videos.  
+- 👩 **Profile Page** – Manage your account, followers, and settings.  
+- 📊 **Web-Based Dashboard** – Accessible anywhere, fully responsive.  
 
-5. **Profile Page**
-   - Display profile info (name, age, height, weight, diet, lifestyle).
-   - Option to edit and update info.
-   - Account settings (change password, logout).
-   - Display simple analytics: BMI calculator, progress history.
+---
 
-6. **Navigation**
-   - Top or side navigation bar with links: **Dashboard | Mental Health | Profile**.
-   - Keep navigation consistent on all pages.
+## 📸 Screenshots  
 
-### Design Guidelines
-- Clean, modern UI with soft colors (pink, lavender, white theme).
-- Use cards, grids, and charts for metrics.
-- Ensure PC-first layout, responsive for larger screens.
-- Placeholders for charts and AI responses — backend will be added later.
+### 🏠 Home  
+![Home](./assets/home.png)  
 
-### Notes
-- Do not implement SOS/emergency features.
-- All data should be **fetched from a central database** (simulate with dummy API).
-- If a user logs in without an account, create a new one and redirect to onboarding.
-- Focus only on **UI scaffolding** and page flows.
+### 🧘 Mental Health  
+![Mental Health](./assets/mental_health.png)  
+
+### 🌍 Community  
+![Community](./assets/community.png)  
+
+### 👩 Profile  
+![Profile](./assets/profile.png)  
+
+---
+
+## 🛠️ Tech Stack  
+
+- ⚛️ React / Next.js  
+- 🎨 Tailwind CSS  
+- 🔐 JWT Authentication  
+- 🌐 REST APIs  
+- 📱 Responsive Design  
+
+---
+
+## 📦 Installation  
+
+Clone the repo and install dependencies:  
+
+```bash
+git clone https://github.com/BlackHawk616/FemTech.git
+cd FemTech
+npm install
